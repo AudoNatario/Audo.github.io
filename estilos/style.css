@@ -249,11 +249,22 @@ p2 {
     body {
         padding: 10px;
     }
+
     main {
         padding: 15px;
     }
+
     img.pequeno {
         width: 60px;
         height: 60px;
+    }
+}
+
+/* Aplicar somente no Safari mobile */
+@supports (-webkit-touch-callout: none) {
+    .linguagens img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
     }
 }
