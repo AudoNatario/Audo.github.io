@@ -169,12 +169,13 @@ img.sql {
 }
 
 .calculadora-projeto img.calculadora,
-.cadastro-projeto img.cadastro-projeto {
+.cadastro-projeto img.cadastro {
     display: block;
     margin: 10px auto;
     max-width: 100%;
     height: auto;
 }
+
 
 .calculadora-projeto p:first-of-type,
 .cadastro-projeto p:first-of-type {
